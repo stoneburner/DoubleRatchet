@@ -11,8 +11,8 @@ let package = Package(
             targets: ["DoubleRatchet"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jedisct1/swift-sodium", from: "0.8.0"),
-        .package(url: "https://github.com/TICESoftware/HKDF", from: "1.0.0"),
+        .package(url: "https://github.com/stoneburner/swift-sodium", from: "0.8.0"),
+        .package(url: "https://github.com/stoneburner/HKDF", from: "1.0.0"),
     ],
     targets: [
         .target(
